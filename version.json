@@ -1,0 +1,9 @@
+{
+    "version": "1.0.0",
+    "release_name": "HyperPulse Toolkit V1 (Windows Release)",
+    "author": "Adrian (@stickshiftwillyy)",
+    "release_date": "2026-11-08",
+    "changelog": "HyperPulse Toolkit V1 Official Release!\n- Developed by Adrian (@stickshiftwillyy)\n- Pure Black AMOLED UI with custom opening splash animation\n- Real-time ADB and Root checker for Xiaomi/HyperOS\n- One-click presets: Joyose thermal throttle kill, 120Hz lock, Shizuku starter\n- Canta-style safety package debloater with 1-click restore\n- Windows 10/11 standalone 64-bit engine",
+    "download_url": "https://github.com/stickshiftwillyy/HyperPulse-Toolkit/releases",
+    "critical": false
+}
