@@ -1,9 +1,9 @@
 {
-    "version": "1.0.0",
-    "release_name": "HyperPulse Toolkit V1 (Windows Release)",
+    "version": "1.1.0",
+    "release_name": "HyperPulse Toolkit V1.1.0 (Smart Flasher & Module Hub)",
     "author": "Adrian (@stickshiftwillyy)",
     "release_date": "2026-11-08",
-    "changelog": "HyperPulse Toolkit V1 Official Release!\n- Developed by Adrian (@stickshiftwillyy)\n- Pure Black AMOLED UI with custom opening splash animation\n- Real-time ADB and Root checker for Xiaomi/HyperOS\n- One-click presets: Joyose thermal throttle kill, 120Hz lock, Shizuku starter\n- Canta-style safety package debloater with 1-click restore\n- Windows 10/11 standalone 64-bit engine",
+    "changelog": "HyperPulse Toolkit V1.1.0 Update!\n- 🛡️ Smart Flasher & Brick-Guard: Fast metadata pre-flight verification in <0.5s for 7GB+ ROMs!\n- 🛑 Automatic Brick Shield: Blocks flash if ROM codename does not match connected phone\n- ⚠️ Pre-Flight Safety Checklist & Confirmation modal\n- ⏳ First-Boot Reassurance Screen with live elapsed timer (4-7 mins expected boot time)\n- 🆘 Bootloop Rescue Assistant: Step-by-step diagnostic guide to resolve bootloops safely\n- 🧩 Magisk & KernelSU Module Hub: 1-click ADB injection for Play Integrity Fix, Shamiko, Zygisk, and custom modules",
     "download_url": "https://github.com/stickshiftwillyy/HyperPulse-Toolkit/releases",
     "critical": false
 }

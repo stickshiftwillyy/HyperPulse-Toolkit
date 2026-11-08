@@ -9,7 +9,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Developer-stickshiftwillyy%20(Adrian)-06b6d4?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Version-V1.0.0-emerald?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Version-V1.1.0-emerald?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Platform-Windows%20Only%20(64--bit)-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
   <img src="https://img.shields.io/badge/UI-Pure%20Black%20AMOLED-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Status-In%20Active%20Development-amber?style=for-the-badge" />
@@ -49,7 +49,19 @@ After extensive hours of hands-on testing, thermal governor profiling, and syste
 * **Disable MSA & Xiaomi Analytics:** Blocks background ad services and telemetry tracking daemons in one click.
 * **Display Tone-Mapping & HDR Reset:** Resets display color calibrations to prevent washed-out HDR video playback.
 
-### 🗑️ 4. Canta-Style Safety Package Debloater
+### 🛡️ 4. Smart Flasher & Brick-Guard (Universal ROM Verification)
+* **Instant Metadata Inspection (<0.5s):** Reads headers of massive 7GB+ ROMs without unpacking. Extracts target codenames in real-time.
+* **Automatic Brick-Shield:** Compares target codename against the connected phone (`malachite`, etc.). If a mismatch is detected, flashing is blocked immediately to prevent hard-bricks!
+* **Pre-Flight Safety Confirmation:** Battery level verification (>40%), target match checklist, and data backup reminder.
+* **First-Boot Reassurance Timer:** Displays an elapsed timer and reassuring guide informing users that first boot takes 4-7 minutes while Android compiles ART cache.
+* **Bootloop Rescue Assistant:** Step-by-step diagnostic guide to fix 99% of bootloops (e.g., formatting userdata in recovery).
+
+### 🧩 5. Magisk, KernelSU & APatch Module Hub
+* **1-Click ADB Root Injection:** Push and install modules directly to Magisk (`magisk --install-module`), KernelSU (`ksud module install`), or APatch with one click.
+* **Curated Top Modules:** Pre-configured downloads for Play Integrity Fix, Shamiko, Zygisk Next, Systemless Hosts (AdAway), and ViPER4Android.
+* **Custom Module Injector:** Drag-and-drop any `.zip` root module to inject it straight into your device.
+
+### 🗑️ 6. Canta-Style Safety Package Debloater
 * **Curated Safety Catalog:** Over 40+ known bloat packages categorized into **Safe** (green), **Caution** (yellow), and **Danger** (red) to prevent accidental bricking.
 * **Live Scanner:** Reads active packages installed on the connected device and indicates installed vs. uninstalled status.
 * **Multi-Selection & Batch Removal:** Uninstall pre-installed bloatware safely for User 0 (`pm uninstall -k --user 0`).

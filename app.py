@@ -17,6 +17,8 @@ from ui.styles import Theme
 from core.adb_manager import ADBManager
 from ui.views.dashboard_view import DashboardView
 from ui.views.presets_view import PresetsView
+from ui.views.flasher_view import FlasherView
+from ui.views.modules_view import ModulesView
 from ui.views.debloater_view import DebloaterView
 from ui.views.terminal_view import TerminalView
 from ui.views.tutorials_view import TutorialsView
@@ -164,6 +166,8 @@ class HyperPulseApp(ctk.CTk):
         nav_items = [
             ("dashboard", "📱  Dashboard"),
             ("presets", "⚡  Presets Hub"),
+            ("flasher", "🛡️  Smart Flasher"),
+            ("modules", "🧩  Module Hub"),
             ("debloater", "🗑️  Debloater"),
             ("terminal", "💻  Live Terminal"),
             ("tutorials", "📚  Tutorials"),
@@ -226,6 +230,8 @@ class HyperPulseApp(ctk.CTk):
 
         self.views["dashboard"] = DashboardView(self.view_container, self.adb, status_logger=log_to_terminal)
         self.views["presets"] = PresetsView(self.view_container, self.adb, status_logger=log_to_terminal)
+        self.views["flasher"] = FlasherView(self.view_container, self.adb, status_logger=log_to_terminal)
+        self.views["modules"] = ModulesView(self.view_container, self.adb, status_logger=log_to_terminal)
         self.views["debloater"] = DebloaterView(self.view_container, self.adb, status_logger=log_to_terminal)
         self.views["terminal"] = TerminalView(self.view_container, self.adb)
         self.views["tutorials"] = TutorialsView(self.view_container, status_logger=log_to_terminal)

@@ -17,7 +17,7 @@ import sys
 from typing import Dict, Any, Optional
 from packaging import version
 
-CURRENT_VERSION = "1.0.0"
+CURRENT_VERSION = "1.1.0"
 DEFAULT_GITHUB_USER = "stickshiftwillyy"
 DEFAULT_GITHUB_REPO = "HyperPulse-Toolkit"
 
